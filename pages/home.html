@@ -1,0 +1,44 @@
+
+
+<br><br>
+<h1 class="artist-name" onclick="location.href='#contact-bruno'" style="text-align: center; margin-bottom: 20px; cursor:pointer;">Проспект Ленина</h1>
+<a href="#about">
+  <img src="images/2.jpg" alt="main" 
+  style="display: block; margin: 0 auto 30px auto; width: 400px; height: auto;">
+</a>
+<hr class="liniya">
+
+<br><br>
+<h1 class="artist-name" onclick="location.href='#contact-weeknd'" style="text-align: center; margin-bottom: 20px; cursor:pointer;">Улица Кирова</h1>
+<a href="#about">
+  <img src="images/1.jpg" alt="main1" style="display: block; margin: 0 auto 30px auto; width: 400px; height: auto;">
+</a>
+
+<hr class="liniya">
+
+
+<!-- форма для отправки -->
+<h1 class="subtitle" style="text-align: center;">Какая ваша любимая улица мира ?</h1>
+
+<form id="favorite-form" style="max-width: 600px; margin: auto;">
+  <label for="artist">Любимая улица мира:</label><br>
+  <input type="text" id="artist" name="artist" required style="width: 100%; padding: 10px; margin-bottom: 15px;"><br>
+
+  <label for="reason">Почему именно она?</label><br>
+  <textarea id="reason" name="reason" rows="4" required style="width: 100%; padding: 10px; margin-bottom: 15px;"></textarea><br>
+
+  <button  type="submit" style="padding: 10px 20px; font-size: 16px; font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Отправить форму.</button>
+</form>
+
+<div id="result" style="max-width: 600px; margin: 40px auto 0 auto; display: none; background: #f0f0f0; padding: 20px; border-radius: 8px;">
+  <h2>Спасибо за ответ!</h2>
+  <p><strong>Ваша любимая улица мира:</strong> <span id="output-artist"></span></p>
+  <p><strong>Причина:</strong> <span id="output-reason"></span></p>
+</div>
+
+
+<div id="about-me">
+  <p>АНТОНОВ А.Ю.  КЭ-107 ЮУрГУ</p>
+</div>
+
+
